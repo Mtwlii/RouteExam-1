@@ -1,0 +1,28 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+:root {
+    --mainColor: #7208e6;
+    --mainBgColor: #ddd6ff;
+    --secColor: #00a63e;
+    --secBgColor: #dbfce7;
+    --thrColor: #d08700;
+    --thrBgColor: #fef9c2;
+    --fourColor: #432dd7;
+    --fourBgColor: #e0e7ff;
+}
+
+.container-fluid {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+a.active {
+    color: var(--mainColor) !important;
+    font-weight: bold;
+}

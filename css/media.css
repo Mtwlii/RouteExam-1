@@ -1,0 +1,64 @@
+
+/* Small phones */
+@media (min-width: 480px) {}
+
+/* Large phones */
+@media (min-width: 576px) {}
+
+/* Small tablets */
+@media (min-width: 768px) {}
+
+/* Large tablets */
+@media (min-width: 992px) {
+    a.active::after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: block;
+        width: 90%;
+        background-color: var(--mainColor);
+        align-items: center;
+        height: 2px;
+        content: "";
+        transition: all 0.5s;
+    }
+
+    .nav-item .nav-link:hover {
+        color: var(--mainColor);
+    }
+
+    .navbar .navbar-nav .nav-item {
+        position: relative;
+    }
+
+    .navbar .navbar-nav .nav-item::after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: var(--mainColor);
+        display: block;
+        width: 0%;
+        height: 2px;
+        content: "";
+        transition: all 0.5s;
+    }
+
+    .navbar .navbar-nav .nav-item:hover::after {
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: block;
+        width: 90%;
+    }
+}
+
+/* Small laptops */
+@media (min-width: 1200px) {}
+
+/* Medium desktops */
+@media (min-width: 1400px) {}
+
+/* Very large screens */
+@media (min-width: 1400px) {}
