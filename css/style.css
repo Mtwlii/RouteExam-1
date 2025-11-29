@@ -279,19 +279,81 @@ main .card:hover .card-img-top {
     color: red !important;
 
 }
-.smt{
+
+.smt {
     font-size: 14px;
 }
-a.all{
+
+a.all {
     background-color: var(--mainColor);
     color: #ffff;
     padding: 20px 30px;
 }
+
 a.all:hover {
     background-color: rgb(103, 5, 160);
+    color: #ffff;
 }
 
 /****************** END CARDS ******************/
 
 
 /* End Main */
+/************* Start Our Services **************/
+
+.services {
+    background-color: #ffff;
+
+}
+
+#buying-tab,
+#selling-tab,
+#renting-tab,
+#investing-tab,
+#commercial-tab {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+
+}
+
+#buying-tab:hover,
+#selling-tab:hover,
+#renting-tab:hover,
+#investing-tab:hover,
+#commercial-tab:hover {
+
+    border-bottom: 2px solid var(--mainColor);
+    color: var(--mainColor);
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    color: #757d89;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: var(--mainColor);
+    background-color: var(--mainBgColor);
+    border-bottom: 2px solid var(--mainColor) !important;
+
+
+}
+
+.services li button {
+    font-size: larger;
+
+}
+
+.services ul {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.services li {
+    margin: auto;
+}
+
+/************** End Our Services ***************/
