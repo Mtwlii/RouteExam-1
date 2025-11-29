@@ -32,11 +32,12 @@
   </head>
   <body>
     <!-- Start Navbar -->
-    <nav class="navbar navbar-expand-lg pt-3 pb-3">
-      <div class="container-fluid">
+    <nav class="navbar bg-white navbar-expand-lg pt-3 pb-3 fixed-top">
+      <div class="container">
         <a class="navbar-brand fw-bolder fs-4" href="#">EliteHomes</a>
+        <i class=""></i>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler fa-solid fa-bars"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -95,6 +96,318 @@
     <!-- End Navbar -->
 
     <!---------------------- Start Header --------------------->
+
+    <header>
+      <div class="container text-center header" mb-5 id="page">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-md-8 mt-5 m-auto">
+            <h1 class="text-white">Find Your Dream Home</h1>
+            <p class="text-white">
+              Discover exceptional properties in prime locations. From modern
+              condos to luxury estates, we help you find the perfect place to
+              call home.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 mt-5 m-auto">
+            <form class="bg-white p-4 rounded-4">
+              <div class="row">
+                <div class="mb-3 col-md-6 position-relative">
+                  <label for="addressLine1" class="form-label">Location</label>
+                  <i class="fa-solid fa-location-dot"></i>
+                  <input
+                    type="text"
+                    class="form-control p-2 space-input"
+                    id="addressLine1"
+                    placeholder=" Enter City, neighborhood, or ZIP"
+                  />
+                </div>
+
+                <div class="mb-3 col-md-3">
+                  <label for="country" class="form-label">Property Type</label>
+                  <select class="form-select" id="country">
+                    <option selected>All Types</option>
+                    <option value="US">House</option>
+                    <option value="CA">Apartment</option>
+                    <option value="UK">Condo</option>
+                    <option value="UK">Townhouse</option>
+                  </select>
+                </div>
+                <div class="mb-3 col-md-3">
+                  <label for="country" class="form-label">Price Range </label>
+                  <select class="form-select" id="country">
+                    <option selected>Any Price</option>
+                    <option value="US">$0 - $500K</option>
+                    <option value="CA">$500k - $1M</option>
+                    <option value="UK">$1M - $2M</option>
+                    <option value="UK">$2M+</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="mb-3 col-md-3 col-6">
+                  <label for="bedrooms" class="form-label">Bedrooms </label>
+                  <select class="form-select" id="bedrooms">
+                    <option selected>Any</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4+</option>
+                  </select>
+                </div>
+                <div class="mb-3 col-md-3 col-6">
+                  <label for="bathrooms" class="form-label">Bathrooms</label>
+                  <select class="form-select" id="bathrooms">
+                    <option selected>Any</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4+</option>
+                  </select>
+                </div>
+                <div class="mb-3 col-md-3 col-6">
+                  <label for="minSqFt" class="form-label">Min Sq Ft</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="minSqFt"
+                    placeholder="1,000"
+                    min="0"
+                  />
+                </div>
+                <div class="mb-3 col-md-3 col-6">
+                  <label for="maxSqFt" class="form-label">Max Sq Ft</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="maxSqFt"
+                    placeholder="5,000"
+                    min="0"
+                  />
+                </div>
+              </div>
+
+              <button type="submit" class="btn mt-3 text-white w-100 pt-3 pb-3">
+                <i class="fa-solid fa-magnifying-glass me-2"></i>
+                Search Properties
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="row text-white mt-4 end">
+          <div class="col-md-3 mb-3 col-6">
+            <div>15,000+</div>
+            <div>Active Listings</div>
+          </div>
+          <div class="col-md-3 mb-3 col-6">
+            <div>98%</div>
+            <div>Client Satisfaction</div>
+          </div>
+          <div class="col-md-3 mb-3 col-6">
+            <div>500+</div>
+            <div>Expert Agents</div>
+          </div>
+          <div class="col-md-3 mb-3 col-6">
+            <div>25</div>
+            <div>Years Experience</div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-12 m-auto">
+            <div class="section-header d-flex">
+              <p class="section-label text-uppercase">Premium Collection</p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5 text-center m-auto">
+          <div class="col-12">
+            <h2><span class="main-header">Featured Properties</span></h2>
+            <p class="text-muted mt-3 fs-5 hamada">
+              Discover our handpicked selection of premium properties in the
+              most desirable locations
+            </p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-12 card-1">
+            <div class="card m-auto">
+              <div class="overflow-hidden position-relative">
+                <img
+                  class="card-img-top w-100"
+                  src="./imgs/featured-properties-img-1.png"
+                  alt="Card image cap"
+                />
+                <span class="position-absolute one rounded-pill">Featured</span>
+                <span class="position-absolute two rounded-pill"
+                  ><i class="fa-solid fa-camera"></i> 24 Photos</span
+                >
+                <span class="position-absolute three rounded-pill"
+                  ><i class="fa-solid fa-heart" style="color: #4a5565"></i
+                ></span>
+              </div>
+              <div class="card-body m-2">
+                <div
+                  class="d-flex m-auto justify-content-between align-items-center"
+                >
+                  <p class="card-title h1 fw-bold main">$2,850,000</p>
+                  <div class="text-muted smt">Price per sq ft: $425</div>
+                </div>
+
+                <div class="mt-2">
+                  <span class="me-2">4 beds </span>
+                  <span class="me-2">•</span>
+                  <span class="me-2">3.5 baths</span>
+                  <span class="me-2">•</span>
+                  <span>6,720 sqft</span>
+                </div>
+                <div class="mt-2">
+                  <p class="text-black">Modern Luxury Estate</p>
+                </div>
+                <p class="card-text">
+                  1234 Beverly Hills Drive, Beverly Hills, CA 90210
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="avatar d-flex">
+                      <img class="" src="./imgs/avatar-1.jpg" alt="avatar-1" />
+                    </div>
+                    <span class="ms-2">John Mitchell</span>
+                  </div>
+                  <div>
+                    <a href="#" class="btn">Schedule Tour</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-12 card-2">
+            <div class="card m-auto">
+              <div class="overflow-hidden position-relative">
+                <img
+                  class="card-img-top w-100"
+                  src="./imgs/featured-properties-img-2.png"
+                  alt="Card image cap"
+                />
+                <span class="position-absolute one rounded-pill"
+                  >New Listing</span
+                >
+                <span class="position-absolute two rounded-pill"
+                  ><i class="fa-solid fa-camera"></i> 18 Photos</span
+                >
+                <span class="position-absolute three rounded-pill"
+                  ><i class="fa-solid fa-heart" style="color: #4a5565"></i
+                ></span>
+              </div>
+              <div class="card-body m-2">
+                <div
+                  class="d-flex m-auto justify-content-between align-items-center"
+                >
+                  <p class="card-title h1 fw-bold main">$1,425,000</p>
+                  <div class="text-muted smt">Price per sq ft: $650</div>
+                </div>
+
+                <div class="mt-2">
+                  <span class="me-2">3 beds </span>
+                  <span class="me-2">•</span>
+                  <span class="me-2">2.5 baths</span>
+                  <span class="me-2">•</span>
+                  <span>2,192 sqft</span>
+                </div>
+                <div class="mt-2">
+                  <p class="text-black">Downtown Penthouse</p>
+                </div>
+                <p class="card-text">
+                  789 Metropolitan Ave, New York, NY 10001
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="avatar d-flex">
+                      <img class="" src="./imgs/avatar-5.jpg" alt="avatar-1" />
+                    </div>
+                    <span class="ms-2">Emily Rodriguez</span>
+                  </div>
+                  <div>
+                    <a href="#" class="btn">Schedule Tour</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-12 card-3">
+            <div class="card m-auto">
+              <div class="overflow-hidden position-relative">
+                <img
+                  class="card-img-top w-100"
+                  src="./imgs/featured-properties-img-3.png"
+                  alt="Card image cap"
+                />
+                <span class="position-absolute one rounded-pill"
+                  >Price Drop</span
+                >
+                <span class="position-absolute two rounded-pill"
+                  ><i class="fa-solid fa-camera"></i> 32 Photos</span
+                >
+                <span class="position-absolute three rounded-pill"
+                  ><i class="fa-solid fa-heart" style="color: #4a5565"></i
+                ></span>
+              </div>
+              <div class="card-body m-2">
+                <div
+                  class="d-flex m-auto justify-content-between align-items-center"
+                >
+                  <p class="card-title h1 fw-bold main">$875,000</p>
+                  <div class="text-muted text-decoration-line-through smt">
+                    $925,000
+                  </div>
+                </div>
+
+                <div class="mt-2">
+                  <span class="me-2">5 beds </span>
+                  <span class="me-2">•</span>
+                  <span class="me-2">4 baths</span>
+                  <span class="me-2">•</span>
+                  <span>3,845 sqft</span>
+                </div>
+                <div class="mt-2">
+                  <p class="text-black">Family Suburban Home</p>
+                </div>
+                <p class="card-text">456 Oak Tree Lane, Austin, TX 78701</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="avatar d-flex">
+                      <img class="" src="./imgs/avatar-3.jpg" alt="avatar-1" />
+                    </div>
+                    <span class="ms-2">Michael Chen</span>
+                  </div>
+                  <div>
+                    <a href="#" class="btn">Schedule Tour</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-4 d-flex">
+          <div class="mb-5 m-auto">
+            <a type="button" href="#" class="btn all"
+              >View All Properties
+              <i class="fa-solid fa-arrow-right ms-2"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <!---------------------- End Header ------------------------>
 

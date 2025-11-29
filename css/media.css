@@ -1,12 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --mainColor: #7208e6;
+    --mainBgColor: #ddd6ff;
+    --secColor: #00a63e;
+    --secBgColor: #dbfce7;
+    --thrColor: #d08700;
+    --thrBgColor: #fef9c2;
+    --fourColor: #432dd7;
+    --fourBgColor: #e0e7ff;
+}
+
+/* X-small phones */
+@media (min-width: 320px) {
+    .header {
+        height: 100%;
+    }
+}
 
 /* Small phones */
-@media (min-width: 480px) {}
+@media (max-width: 480px) {
+    .nav-link:hover {
+        background-color: var(--mainBgColor);
+
+    }
+
+    .header {
+        height: 100%;
+    }
+
+    .header h1 {
+        font-size: 3rem;
+        margin-top: 6rem;
+    }
+
+    .header p {
+        width: 100%;
+        margin: auto;
+    }
+
+    .end {
+        width: 100%;
+    }
+
+    .main-header {
+        font-size: 30px;
+    }
+
+    .hamada {
+        align-items: center;
+        padding: 0px;
+    }
+}
 
 /* Large phones */
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+
+    .header {
+        height: 100%;
+    }
+
+    .header h1 {
+        font-size: 3.5rem;
+    }
+
+}
 
 /* Small tablets */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .header {
+        height: 100%;
+    }
+}
 
 /* Large tablets */
 @media (min-width: 992px) {
@@ -48,17 +117,33 @@
     .navbar .navbar-nav .nav-item:hover::after {
         bottom: 0;
         left: 0;
-        right: 0;
-        display: block;
-        width: 90%;
+
+        /* Small laptops */
+        @media (min-width: 1200px) {
+            .header h1 {
+                font-size: 4rem;
+            }
+
+            .main-header {
+                font-size: 36px;
+            }
+        }
+
     }
-}
 
-/* Small laptops */
-@media (min-width: 1200px) {}
+    /* Small laptops */
+    @media (min-width: 1200px) {
+        .header {
+            height: 100vh;
+        }
+    }
 
-/* Medium desktops */
-@media (min-width: 1400px) {}
+    /* Medium desktops */
+    @media (min-width: 1400px) {
+        .header {
+            height: 100vh;
+        }
+    }
 
-/* Very large screens */
-@media (min-width: 1400px) {}
+    /* Very large screens */
+    /* Add relevant styles for very large screens below or remove this block if not needed */
