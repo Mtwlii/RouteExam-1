@@ -52,6 +52,11 @@
         display: none;
         margin: auto;
     }
+
+    .forAccordion {
+        width: 100%;
+
+    }
 }
 
 /* Small phones */
@@ -111,6 +116,10 @@
         }
     }
 
+    .forAccordion {
+        width: 100%;
+
+    }
 
 }
 
@@ -147,6 +156,10 @@
         }
     }
 
+    .forAccordion {
+        width: 90%;
+
+    }
 }
 
 /* Small tablets */
@@ -174,6 +187,11 @@
         p {
             text-align: center;
         }
+    }
+
+    .forAccordion {
+        width: 80%;
+
     }
 }
 
@@ -247,6 +265,10 @@
 
     }
 
+    .forAccordion {
+        width: 80%;
+        margin: auto;
+    }
 
 }
 
@@ -256,12 +278,24 @@
         height: 100vh;
     }
 
+    .forAccordion {
+        width: 80%;
+        margin: auto;
+
+    }
+
 }
 
 /* Medium desktops */
 @media (min-width: 1400px) {
     .header {
         height: 100vh;
+    }
+
+    .forAccordion {
+        width: 80%;
+        margin: auto;
+
     }
 }
 

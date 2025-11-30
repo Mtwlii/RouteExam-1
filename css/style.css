@@ -2,6 +2,10 @@
     font-family: "Open Sans", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: linear-gradient(to right, rgba(114, 8, 230, .6), rgba(114, 8, 230, .6)), url('../imgs/hero-bg-img.png');
     background-size: cover;
@@ -25,7 +29,7 @@ body {
     display: none;
 }
 
-a.active {
+.navbar ul li a.active {
     color: var(--mainColor) !important;
     font-weight: bold;
 }
@@ -43,7 +47,6 @@ a.active {
 .fa-mark {
     display: none;
 }
-
 /* Start Header */
 
 /* header {
@@ -713,8 +716,7 @@ a.all:hover {
 
 .help {
     background-color: #f9fafb;
-    margin-bottom: 0;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .help-header {
@@ -726,9 +728,28 @@ a.all:hover {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.help .ph{
+
+.help .ph {
     margin: auto;
-    
+
 }
 
 /************** End Client Stories ***************/
+
+.forAccordion {
+    width: 100%;
+
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: white;
+    box-shadow: inset 0 calc() 0 var(--bs-accordion-border-color);
+}
+
+.accordion-button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 30px 20px;
+    background-color: transparent;
+}
