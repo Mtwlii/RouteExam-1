@@ -12,12 +12,12 @@ body {
 
 :root {
     --mainColor: #9708e7;
-    --mainBgColor: #ede9fe;
+    --mainBgColor: #ddd6ff;
     --secColor: #00a63e;
     --secBgColor: #dbfce7;
     --thrColor: #d08700;
     --thrBgColor: #fef9c2;
-    --fourColor: #432dd7;
+    --fourColor: #4f39f6;
     --fourBgColor: #e0e7ff;
 }
 
@@ -303,6 +303,7 @@ a.all:hover {
 
 .services {
     background-color: #ffff;
+    padding-bottom: 3rem;
 
 }
 
@@ -323,8 +324,9 @@ a.all:hover {
 #investing-tab:hover,
 #commercial-tab:hover {
 
-    border-bottom: 2px solid var(--mainColor);
+    border-bottom: 2px solid var(--mainBgColor);
     color: var(--mainColor);
+    background-color: transparent;
 }
 
 .nav-tabs .nav-link {
@@ -355,5 +357,261 @@ a.all:hover {
 .services li {
     margin: auto;
 }
+
+.services .icon-1 {
+    background-color: var(--mainBgColor);
+    color: var(--mainColor);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    height: 50%;
+}
+
+#buying-tab-pane .btn {
+    background-color: var(--mainColor);
+    color: #ffff;
+    padding: 10px 20px;
+}
+
+#buying-tab-pane .btn:hover {
+    background-color: rgb(103, 5, 160);
+    color: #ffff;
+
+}
+
+#buying-tab-pane img {
+    height: 400px;
+    object-fit: cover;
+    object-position: 0% 50%;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.forImg {
+    margin-top: 4rem;
+}
+
+.rate-1 {
+    position: absolute;
+    bottom: -20px;
+    left: -1.5rem;
+    background-color: #ffffff;
+    padding: 1.5rem;
+}
+
+
+.rate-1 div:first-child {
+    color: var(--mainColor);
+
+}
+
+
+/*----------------------------------------- */
+.services .icon-2 {
+    background-color: var(--secBgColor);
+    color: var(--secColor);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    height: 50%;
+}
+
+#selling-tab-pane .btn {
+    background-color: var(--secColor);
+    color: #ffff;
+    padding: 10px 20px;
+}
+
+#selling-tab-pane .btn:hover {
+    background-color: rgb(2, 116, 47);
+    color: #ffff;
+
+}
+
+#selling-tab-pane img {
+    height: 400px;
+    object-fit: cover;
+    object-position: 0% 50%;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.rate-2 {
+    position: absolute;
+    bottom: -20px;
+    right: -1.5rem;
+    background-color: #ffffff;
+    padding: 1.5rem;
+}
+
+.rate-2 div:first-child {
+    color: var(--secColor);
+
+}
+
+/*----------------------------------------- */
+.services .icon-3 {
+    background-color: var(--mainBgColor);
+    color: var(--mainColor);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    height: 50%;
+}
+
+#renting-tab-pane .btn {
+    background-color: var(--mainColor);
+    color: #ffff;
+    padding: 10px 20px;
+}
+
+#renting-tab-pane .btn:hover {
+    background-color: rgb(130, 0, 219);
+    color: #ffff;
+
+}
+
+#renting-tab-pane img {
+    height: 350px;
+    object-fit: cover;
+    object-position: 0% 50%;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.rate-3 {
+    position: absolute;
+    bottom: -20px;
+    left: -1.5rem;
+    background-color: #ffffff;
+    padding: 1.5rem;
+}
+
+.rate-3 div:first-child {
+    color: var(--mainColor);
+
+}
+
+/*----------------------------------------- */
+.services .icon-4 {
+    background-color: var(--thrBgColor);
+    color: var(--thrColor);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    height: 50%;
+}
+
+#investing-tab-pane .btn {
+    background-color: var(--thrColor);
+    color: #ffff;
+    padding: 10px 20px;
+}
+
+#investing-tab-pane .btn:hover {
+    background-color: rgb(166, 95, 0);
+    color: #ffff;
+
+}
+
+#investing-tab-pane img {
+    height: 380px;
+    object-fit: cover;
+    object-position: 0% 50%;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.rate-4 {
+    position: absolute;
+    bottom: -20px;
+    right: -1.5rem;
+    background-color: #ffffff;
+    padding: 1.5rem;
+}
+
+.rate-4 div:first-child {
+    color: var(--thrColor);
+
+}
+
+/*----------------------------------------- */
+.services .icon-5 {
+    background-color: var(--fourBgColor);
+    color: var(--fourColor);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    height: 50%;
+}
+
+#commercial-tab-pane .btn {
+    background-color: var(--fourColor);
+    color: #ffff;
+    padding: 10px 20px;
+}
+
+#commercial-tab-pane .btn:hover {
+    background-color: #3621be;
+    color: #ffff;
+
+}
+
+#commercial-tab-pane img {
+    height: 350px;
+    object-fit: cover;
+    object-position: 0% 50%;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.rate-5 {
+    position: absolute;
+    bottom: -20px;
+    left: -1.5rem;
+    background-color: #ffffff;
+    padding: 1.5rem;
+}
+
+.rate-5 div:first-child {
+    color: var(--fourColor);
+
+}
+/*----------------------------------------- */
 
 /************** End Our Services ***************/
