@@ -20,6 +20,28 @@
     .header {
         height: 100%;
     }
+
+    .hamada,
+    .hamada2 {
+        align-items: center;
+        padding: 10px;
+    }
+
+    .main-header,
+    .clientStories h2 {
+        font-size: 30px;
+    }
+
+    .carousel {
+        margin: auto;
+        width: 90%;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+        margin: auto;
+    }
 }
 
 /* Small phones */
@@ -47,14 +69,29 @@
         width: 100%;
     }
 
-    .main-header {
+    .main-header,
+    .clientStories h2 {
         font-size: 30px;
     }
 
-    .hamada {
+    .hamada,
+    .hamada2 {
         align-items: center;
-        padding: 0px;
+        padding: 10px;
     }
+
+    .carousel {
+        margin: auto;
+        width: 90%;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+        margin: auto;
+    }
+
+
 }
 
 /* Large phones */
@@ -65,8 +102,21 @@
     }
 
     .header h1 {
+
+        font-size: 3.5rem;
     }
-    font-size: 3.5rem;
+
+    .carousel {
+        margin: auto;
+        width: 90%;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+        margin: auto;
+    }
+
 
 }
 
@@ -75,10 +125,32 @@
     .header {
         height: 100%;
     }
+
+    .carousel {
+        margin: auto;
+        width: 90%;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+        margin: auto;
+    }
 }
 
 /* Large tablets */
 @media (min-width: 992px) {
+    .carousel {
+        margin: auto;
+        width: 80%;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: flex;
+        margin: auto;
+    }
+
     a.active::after {
         position: absolute;
         bottom: 0;
@@ -131,19 +203,23 @@
 
     }
 
-    /* Small laptops */
-    @media (min-width: 1200px) {
-        .header {
-            height: 100vh;
-        }
+
+}
+
+/* Small laptops */
+@media (min-width: 1200px) {
+    .header {
+        height: 100vh;
     }
 
-    /* Medium desktops */
-    @media (min-width: 1400px) {
-        .header {
-            height: 100vh;
-        }
-    }
+}
 
-    /* Very large screens */
-    /* Add relevant styles for very large screens below or remove this block if not needed */
+/* Medium desktops */
+@media (min-width: 1400px) {
+    .header {
+        height: 100vh;
+    }
+}
+
+/* Very large screens */
+/* Add relevant styles for very large screens below or remove this block if not needed */

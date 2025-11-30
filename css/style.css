@@ -170,6 +170,11 @@ main {
     padding: 0px 22%;
 }
 
+.hamada2 {
+    align-items: center;
+    padding: 0px 30%;
+}
+
 main .card {
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -384,7 +389,7 @@ a.all:hover {
 }
 
 #buying-tab-pane img {
-    height: 400px;
+    height: 380px;
     object-fit: cover;
     object-position: 0% 50%;
     border-radius: 1rem;
@@ -440,7 +445,7 @@ a.all:hover {
 }
 
 #selling-tab-pane img {
-    height: 400px;
+    height: 380px;
     object-fit: cover;
     object-position: 0% 50%;
     border-radius: 1rem;
@@ -490,7 +495,7 @@ a.all:hover {
 }
 
 #renting-tab-pane img {
-    height: 350px;
+    height: 380px;
     object-fit: cover;
     object-position: 0% 50%;
     border-radius: 1rem;
@@ -612,6 +617,103 @@ a.all:hover {
     color: var(--fourColor);
 
 }
+
 /*----------------------------------------- */
 
 /************** End Our Services ***************/
+
+
+
+/************** Start Client Stories ***************/
+
+.clientStories {
+    background: linear-gradient(to right, #4e1698, #59168b);
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+
+.clientStories-header::after {
+    content: '';
+    height: 2px;
+    width: 80px;
+    margin: auto;
+    margin-left: 10px;
+    background: linear-gradient(to left, rgb(129, 33, 254),
+            #fc9900)
+}
+
+.clientStories-header::before {
+    content: '';
+    height: 2px;
+    width: 80px;
+    margin: auto;
+    margin-right: 10px;
+    background: linear-gradient(to right, rgb(129, 33, 254),
+            #fc9900)
+}
+
+.clientStories .section-label {
+    background-color: #f5f3ff;
+    color: var(--mainColor);
+}
+
+.clientStories h2 {
+    line-height: 3rem;
+    font-size: 3rem;
+    font-weight: 900;
+    background-color: #ffffff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/************** start carousel ***************/
+.carousel-profile img {
+    width: 4rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.carousel {
+    margin: auto;
+    width: 70%;
+}
+
+.carousel-inner {
+    padding: 2rem 1rem;
+    width: 70%;
+}
+
+#carouselExampleCaptions .carousel-caption {
+    color: red;
+}
+
+.carousel-indicators {
+    bottom: -70px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(255, 255, 255, .5);
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 10px;
+}
+
+/************** end carousel ***************/
+
+
+/************** End Client Stories ***************/
