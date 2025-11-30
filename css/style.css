@@ -47,6 +47,7 @@ body {
 .fa-mark {
     display: none;
 }
+
 /* Start Header */
 
 /* header {
@@ -752,4 +753,195 @@ a.all:hover {
     font-weight: bold;
     padding: 30px 20px;
     background-color: transparent;
+}
+
+.contact {
+    background-color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+
+.cercil-1::after {
+    content: "";
+    display: flex;
+    width: 120px;
+    height: 120px;
+    color: white;
+    border: 5px solid #ddd6ff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    top: 11rem;
+    right: 11rem;
+}
+
+.cercil-2::after {
+    content: "";
+    display: flex;
+    width: 120px;
+    height: 120px;
+    border: 5px solid #ddd6ff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    bottom: 11rem;
+    left: 11rem;
+}
+
+.cercil-1 {
+    width: 18rem;
+    height: 18rem;
+    background-color: #f5f3fe;
+    position: absolute;
+    right: -120px;
+    top: -120px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+}
+
+.cercil-2 {
+    width: 18rem;
+    height: 18rem;
+    background-color: #f5f3fe;
+    position: absolute;
+    bottom: -120px;
+    left: -120px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.contact .main-header {
+    line-height: 3rem;
+    font-size: 3rem;
+    font-weight: 900;
+    background: linear-gradient(to right, var(--mainColor), var(--thrColor));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.cardes {
+    border: 2px solid #f3f4f6;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 20px;
+    transition: all ease-in-out .4s;
+    -webkit-transition: all ease-in-out .4s;
+    -moz-transition: all ease-in-out .4s;
+    -ms-transition: all ease-in-out .4s;
+    -o-transition: all ease-in-out .4s;
+}
+
+.cardes .fa-phone,
+.cardes .fa-envelope,
+.cardes .fa-location-dot,
+.cardes .fa-comments {
+    color: #ffff;
+    padding: 20px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    transition: all ease-in-out .4s;
+    -webkit-transition: all ease-in-out .4s;
+    -moz-transition: all ease-in-out .4s;
+    -ms-transition: all ease-in-out .4s;
+    -o-transition: all ease-in-out .4s;
+}
+
+.cardes .fa-phone {
+    background-color: #853aff;
+}
+
+.cardes .fa-envelope {
+    background-color: #9c1efc;
+}
+
+.cardes .fa-location-dot {
+    background: linear-gradient(45deg, #e554dd, #f89247);
+}
+
+.cardes .fa-comments {
+    background-color: var(--fourColor);
+}
+
+.cardes a {
+    text-decoration: none;
+    color: var(--mainColor);
+}
+
+.cardes:hover {
+
+    border: 2px solid var(--mainColor);
+    border: 2px solid var(--mainColor);
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+
+    .fa-phone {
+        transform: translateY(-5px) scale(1.1);
+        -webkit-transform: translateY(-5px) scale(1.1);
+        -moz-transform: translateY(-5px) scale(1.1);
+        -ms-transform: translateY(-5px) scale(1.1);
+        -o-transform: translateY(-5px) scale(1.1);
+    }
+}
+
+.all {
+    background-color: #f5f6f8;
+    padding: 20px 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.ff {
+    background-color: #ffff;
+    color: var(--mainColor);
+    padding: 15px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+}
+
+.mainn {
+    display: flex;
+    align-items: start;
+    width: 100%;
+}
+
+.small {
+    margin-top: 10px;
+    color: #ffff;
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient(45deg, #8221fd, #9711fa);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
