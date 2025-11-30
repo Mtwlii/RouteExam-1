@@ -688,10 +688,6 @@ a.all:hover {
     width: 70%;
 }
 
-#carouselExampleCaptions .carousel-caption {
-    color: red;
-}
-
 .carousel-indicators {
     bottom: -70px;
 }
