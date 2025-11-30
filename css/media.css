@@ -219,13 +219,12 @@
         left: 0;
         right: 0;
         display: block;
-        width: 90%;
+        width: 100%;
         background-color: var(--mainColor);
         align-items: center;
         height: 2px;
         content: "";
         transition: all 0.5s;
-    }
 
     .nav-item .nav-link:hover {
         color: var(--mainColor);
@@ -248,21 +247,11 @@
         transition: all 0.5s;
     }
 
+
     .navbar .navbar-nav .nav-item:hover::after {
         bottom: 0;
         left: 0;
-
-        /* Small laptops */
-        @media (min-width: 1200px) {
-            .header h1 {
-                font-size: 4rem;
-            }
-
-            .main-header {
-                font-size: 36px;
-            }
-        }
-
+        width: 100%;
     }
 
     .forAccordion {
@@ -281,9 +270,15 @@
     .forAccordion {
         width: 80%;
         margin: auto;
-
     }
 
+    .header h1 {
+        font-size: 4rem;
+    }
+
+    .main-header {
+        font-size: 36px;
+    }
 }
 
 /* Medium desktops */
@@ -296,6 +291,68 @@
         width: 80%;
         margin: auto;
 
+    }
+
+    .cercil-1::after {
+        content: "";
+        display: flex;
+        width: 120px;
+        height: 120px;
+        color: white;
+        border: 5px solid #ddd6ff;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        position: absolute;
+        top: 11rem;
+        right: 11rem;
+    }
+
+    .cercil-2::after {
+        content: "";
+        display: flex;
+        width: 120px;
+        height: 120px;
+        border: 5px solid #ddd6ff;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        position: absolute;
+        bottom: 11rem;
+        left: 11rem;
+    }
+
+    .cercil-1 {
+        width: 18rem;
+        height: 18rem;
+        background-color: #f5f3fe;
+        position: absolute;
+        right: -120px;
+        top: -120px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+
+    }
+
+    .cercil-2 {
+        width: 18rem;
+        height: 18rem;
+        background-color: #f5f3fe;
+        position: absolute;
+        bottom: -120px;
+        left: -120px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
     }
 }
 

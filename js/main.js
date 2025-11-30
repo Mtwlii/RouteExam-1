@@ -10,7 +10,7 @@ const observer = new IntersectionObserver(entries => {
     }
   });
 }, {
-  threshold: 0.5      // 50% من السكشن لازم يكون ظاهر
+  threshold: 0.5   
 });
 
 sections.forEach(sec => observer.observe(sec));

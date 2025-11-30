@@ -761,67 +761,7 @@ a.all:hover {
     overflow: hidden;
 }
 
-.cercil-1::after {
-    content: "";
-    display: flex;
-    width: 120px;
-    height: 120px;
-    color: white;
-    border: 5px solid #ddd6ff;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    position: absolute;
-    top: 11rem;
-    right: 11rem;
-}
 
-.cercil-2::after {
-    content: "";
-    display: flex;
-    width: 120px;
-    height: 120px;
-    border: 5px solid #ddd6ff;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    position: absolute;
-    bottom: 11rem;
-    left: 11rem;
-}
-
-.cercil-1 {
-    width: 18rem;
-    height: 18rem;
-    background-color: #f5f3fe;
-    position: absolute;
-    right: -120px;
-    top: -120px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-
-}
-
-.cercil-2 {
-    width: 18rem;
-    height: 18rem;
-    background-color: #f5f3fe;
-    position: absolute;
-    bottom: -120px;
-    left: -120px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
 
 .contact .main-header {
     line-height: 3rem;
