@@ -715,5 +715,24 @@ a.all:hover {
 
 /************** end carousel ***************/
 
+.help {
+    background-color: #f9fafb;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}
+
+.help-header {
+    line-height: 3rem;
+    font-size: 3rem;
+    font-weight: 900;
+    background: linear-gradient(to right, #7f22fd, #9710f9);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.help .ph{
+    margin: auto;
+    
+}
 
 /************** End Client Stories ***************/
